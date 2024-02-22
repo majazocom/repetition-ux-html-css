@@ -4,21 +4,35 @@ body {
     background-color: rgb(9, 4, 19);
     margin: 0;
     font-family: "Share", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* font styling */
 h1 {
     font-size: 96px;
-    color: white;
 }
 
 h2 {
-    color: white;
     font-size: 74px;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 24px;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+}
+
+.wrapper {
+    max-width: 1440px;
 }
 
 header {
     display: flex;
+    width: 100%;
 }
 
 .header-title-container {
@@ -110,7 +124,6 @@ main {
 .farfaraway-text-container {
     width: 100%;
     background-color: #0E002C;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,4 +137,25 @@ main {
     justify-content: center;
     align-items: center;
     padding-top:5rem;
+}
+
+footer {
+    padding: 4rem;
+    background-color: #654C8C;
+    color: rgb(8, 8, 8);
+}
+
+footer h4 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.footer-links article {
+    max-width: 8rem;
 }
