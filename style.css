@@ -3,17 +3,17 @@
 body {
     background-color: rgb(9, 4, 19);
     margin: 0;
+    font-family: "Share", sans-serif;
 }
+
 /* font styling */
 h1 {
     font-size: 96px;
     color: white;
-    font-family: "Share", sans-serif;
 }
 
 h2 {
     color: white;
-    font-family: "Share", sans-serif;
     font-size: 74px;
 }
 
@@ -80,5 +80,48 @@ main {
 }
 
 .icons-with-text-block {
+    display: flex;
+}
 
+.space-stuff-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.satellite-container {
+    width: 50%;
+    background-color: #7654B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.planets-container {
+    width: 50%;
+    background-color: #5D44AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.farfaraway-text-container {
+    width: 100%;
+    background-color: #0E002C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.constellation-container {
+    width: 50%;
+    background-color: #2E2D31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:5rem;
 }
